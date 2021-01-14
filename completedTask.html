@@ -1,0 +1,37 @@
+---
+layout: default
+---
+<html>
+<center>
+{% for task in site.tasks %}
+    {% if task.iscompleted %}
+        <button type="button" class="collapsible">{{ task.name }}</button>
+        <div class="content">
+            <div class="innerTxt">
+            {% if task.assign %}
+            {% assign assignment = task.assign | split: "," | join: ", " %}
+            <b>By: </b>{{ assignment }}
+            <hr/>
+            {% endif %}
+            {% if task.description %}
+            <b>Description:</b><br/>
+            {{ task.description }}
+            <hr/>
+            {% endif %}
+            {% if task.resources %}
+            <b>Resources: </b>
+            {% assign reso = task.resources | split: "," %}
+            <ul>
+                {% for res in reso %}
+                    <li><a href = "{{ res }}">{{ res }}</a></li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+            </div>
+        </div>
+        <br/>
+    {% endif %}
+{% endfor %}
+</center>
+</html>
+<script src = "assets/js/script.js">

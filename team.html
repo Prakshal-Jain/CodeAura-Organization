@@ -1,0 +1,17 @@
+---
+layout: default
+---
+<div class="txtArea"><center><b>We are a team of artists who have a goal to provide the best tools to other artists</b></center></div>
+<br>
+<div class="txtArea">
+<h3>Members:</h3>
+<ul>
+    {% for member in site.data.members %}
+      <li>
+        <a href="mailto:{{ member.email }}">
+          {{ member.name }}
+        </a>
+      </li>
+    {% endfor %}
+</ul>
+</div>
