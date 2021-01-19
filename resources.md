@@ -1,6 +1,6 @@
 1. Virtual Reality:
- -Professor Cindi Tysick: cat2@buffalo.edu
- -Professor Eileen Oconnor:  eileen.oconnor@esc.edu
- -Brian O'Keefe: https://www.farmingdale.edu/faculty/?fid=55348#
+<li>Professor Cindi Tysick: cat2@buffalo.edu</li>
+<li>Professor Eileen Oconnor:  eileen.oconnor@esc.edu</li>
+<li>Brian O'Keefe: https://www.farmingdale.edu/faculty/?fid=55348#</li>
 
 All Faculty: https://booking.lib.buffalo.edu/calendar/workshops/virtualworlds
