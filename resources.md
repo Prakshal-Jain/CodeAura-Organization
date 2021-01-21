@@ -5,3 +5,6 @@ Virtual Reality:
 <li>Gina Sipley: gsipley@gmail.com</li>
 
 All Faculty: https://booking.lib.buffalo.edu/calendar/workshops/virtualworlds
+
+Collaboration Hack:
+https://www.nymeria.io/blog/how-to-manually-find-email-addresses-for-github-users
