@@ -23,7 +23,7 @@ layout: default
             {% assign reso = task.resources | split: "," %}
             <ul>
                 {% for res in reso %}
-                    <li><a href = "{{ res }}">{{ res }}</a></li>
+                    <li><a href = "{{ res }}" target="_blank">{{ res }}</a></li>
                 {% endfor %}
             </ul>
             {% endif %}
