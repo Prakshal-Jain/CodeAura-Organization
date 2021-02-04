@@ -1,0 +1,8 @@
+---
+name: Teammate(s) recommendation Algorithm
+priority: 6
+assign: 
+iscompleted: false
+description: Works in synchronization with the Teammate Search algorithm to recommend teammate(s) --> best matches based on search behaviours / connections / profile / *working hours* / roles / area of interest etc.
+resources: https://en.wikipedia.org/wiki/Gale%E2%80%93Shapley_algorithm
+---
