@@ -1,24 +1,32 @@
-The company will be greatly scalable with the current and future market needs.
+---
+layout: timeline
+---
 
-It is something that others will want to invest in because the demand for technology that brings the world together is on a rise and bringing natural experience to the workspace experience is a necessity of the current and future generations.
+<html>
+<head>
+	<title>Milestones</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/time.css">
+</head>
+<body>
+	<div class="timeline">
+		<ul>
+            {% for mile in site.milestone %}
+                <li>
+                    <div class='time'>
+                        <span>{{mile.dates}}</span>
+                    </div>
+                    <div class="content">
+                    <h3>{{ mile.milestone_type }}</h3>
+                    <p>
+                        {{ mile.description }}
+                    </p>
+                    </div>
+                </li>
+            {% endfor %}
+		</ul>
+	</div>
+	
 
-Background: We have already completed 60% of the development work.
-Here are the milestones we are trying hard to achieve:
-
-1. Mid-June, 2021 (Technical Milestone): Implement a working project prototype into a small class (~10 people with single-room workspace experience).
-
-2. Mid-July, 2021 (Technical Milestone): Fixing issues based on testings.
-
-3. July-end, 2021 (Technical Milestone): (Alpha Testing) Implementing the working model on a large population (size: ~ 30-40 people with multi-room model)
-
-4. Mid-August, 2021 (Business and Investment Milestone): Gain more developers working on the project and switch to better APIs (paid versions for better efficiency), and refine algorithms.
-
-5. Mid-October, 2021 (Business Milestone): (Beta-Testing) Implement into UB Hacking (~ 600 users all over the world).
-
-6. Mid-December, 2021 (Technical Milestone): Refine algorithms and fix issues found in beta-testing.
-
-7. January 2022 (Business and Investment Milestone): Get more servers to support growing users, partner with MLH, and expand to other universities for online events and classrooms.
-
-8. March 2022 (Business and Investment Milestone): Expand for general purpose use within organizations and partner with AlgoExpert.
-
-9. May 2022 (Business and Investment Milestone): Partner with GitHub and with companies as a primary source of business communication.
+</body>
+</html>

@@ -5,3 +5,5 @@ title: "" # the name of your site, e.g. ACME Corp.
 collections:
     tasks:
       output: true
+    milestone:
+      output: true
