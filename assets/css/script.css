@@ -136,3 +136,10 @@ input[type=password].valid,input[type=text].valid,input[type=email].invalid,inpu
 {
 	background-color: #DAA520;
 }
+
+.summ_img{
+  width: 95%;
+  height: auto;
+  border-radius: 3%;
+  margin: 2%;
+}
